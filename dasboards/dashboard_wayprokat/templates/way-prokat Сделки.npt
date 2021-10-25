@@ -1,0 +1,837 @@
+<?xml version="1.0"?>
+<NptFile AppVersion="3.2.1.293" NptVersion="43" IsFromFile="True">
+	<DataSources>
+		<Source>
+			<Params SessionId="way-prokat.bitrix24.ru" Locale="ru" LastUpdate="30.12.1899" ReportType="rtStandart" DefinedName="Bitrix24">
+				<UserFields>
+					<UserField Title="Нужна аренда / Просто спросить" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="boolean" Name="UF_CRM_1592385114619"/>
+					<UserField Title="Реально нужна аренда или просто узнать цены?" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1592385205752"/>
+					<UserField Title="Дата мероприятия" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="date" Name="UF_CRM_1592394484500"/>
+					<UserField Title="К-во участников" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592394558330"/>
+					<UserField Title="Где проходит" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1592394683965"/>
+					<UserField Title="Бюджет мероприятия" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="money" Name="UF_CRM_1592394707242"/>
+					<UserField Title="planado:Адрес" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592572719"/>
+					<UserField Title="planado:Дата-время" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592572732"/>
+					<UserField Title="planado:Исполнители" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1592572793"/>
+					<UserField Title="Оборудование испорчено" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1592575089"/>
+					<UserField Title="Вариант доставки" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1592575140"/>
+					<UserField Title="Комплектность" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575183"/>
+					<UserField Title="Доставщик" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="crm" Name="UF_CRM_1592575238"/>
+					<UserField Title="Сумма Михаила" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575269"/>
+					<UserField Title="Прибыль" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575331"/>
+					<UserField Title="Сумма Ольги" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575353"/>
+					<UserField Title="Сумма Кирилла" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575370"/>
+					<UserField Title="Сумма &quot;Иное&quot;" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575397"/>
+					<UserField Title="Сумма Дарьи" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575615"/>
+					<UserField Title="Сумма Женя" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575635"/>
+					<UserField Title="Расход Менеджеры" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575672"/>
+					<UserField Title="Расход Офис" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575696"/>
+					<UserField Title="Цена за Клиента" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575722"/>
+					<UserField Title="Пересчитать сделку" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="boolean" Name="UF_CRM_1592575753"/>
+					<UserField Title="Тип обращения" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575789"/>
+					<UserField Title="domain" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575804"/>
+					<UserField Title="Рекламный источник" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575815"/>
+					<UserField Title="% Менеджер Марина" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575835"/>
+					<UserField Title="Сумма Наталья" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575850"/>
+					<UserField Title="Инвестор Баха" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575871"/>
+					<UserField Title="call_id" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575886"/>
+					<UserField Title="Шамиль" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592575903"/>
+					<UserField Title="ID лида" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="integer" Name="UF_CRM_1592575918"/>
+					<UserField Title="Тип обращения" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575934"/>
+					<UserField Title="marker" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1592575946"/>
+					<UserField Title="Ссылка на запись звонка" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="url" Name="UF_CRM_1592575980"/>
+					<UserField Title="Сумма Лена" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1592576000"/>
+					<UserField Title="roistat" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1593087214269"/>
+					<UserField Title="referrer" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="url" Name="UF_CRM_1593087238626"/>
+					<UserField Title="Код купона" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1593191826622"/>
+					<UserField Title="Всего расходы по сделке" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1593221906203"/>
+					<UserField Title="Список броней" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="resourcebooking" Name="UF_CRM_1593359825370"/>
+					<UserField Title="Первый контакт" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593446434"/>
+					<UserField Title="Второй звонок" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447296"/>
+					<UserField Title="WhatsApp сообщение" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447333"/>
+					<UserField Title="День 2: звонок/письмо (Что решил)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447454"/>
+					<UserField Title="День 2: доп. инфо в WhatsApp" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447489"/>
+					<UserField Title="День 2: написать вечером" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447510"/>
+					<UserField Title="Договор выслан" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447661"/>
+					<UserField Title="Счет отправлен" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1593447685"/>
+					<UserField Title="Направление сделки (для отчета)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1601503905457"/>
+					<UserField Title="Отметки" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602168636"/>
+					<UserField Title="Поле состояния имущества" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602233612"/>
+					<UserField Title="Фактический период проката (суток)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602233810"/>
+					<UserField Title="Итого арендная плата (рублей)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602233851"/>
+					<UserField Title="Итого арендая плата (копеек)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602233868"/>
+					<UserField Title="Общая сумма обеспечительного платежа" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602234069"/>
+					<UserField Title="Общая оценочная стоимость имущества с учетом износа" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602234330"/>
+					<UserField Title="Общая сумма арендной платы за сутки" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602234443"/>
+					<UserField Title="Обесп. платёж + аренда за период" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602234599"/>
+					<UserField Title="cat_id_aurarent" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1602626452833"/>
+					<UserField Title="сценарий КТ roistat" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602800022100"/>
+					<UserField Title="набранный номер телефонии" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1602800057979"/>
+					<UserField Title="Общая сумма аренды за весь период" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1603289722"/>
+					<UserField Title="Количество часов аренды" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_NDAYSH"/>
+					<UserField Title="Сумма доставки_" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1603714889967"/>
+					<UserField Title="Номер КТ roistat" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1603805006229"/>
+					<UserField Title="landing_page" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="url" Name="UF_CRM_1603805027480"/>
+					<UserField Title="Повторная сделка" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1604354834566"/>
+					<UserField Title="Тип клиента" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="enumeration" Name="UF_CRM_1604640124117"/>
+					<UserField Title="Сумма субаренда" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1604962861122"/>
+					<UserField Title="Сопровождение" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_1607971124852"/>
+					<UserField Title="триггер whatsapp" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="boolean" Name="UF_CRM_1608577730"/>
+					<UserField Title="сделка-оригинал" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="url" Name="UF_CRM_1608758642868"/>
+					<UserField Title="source_level_1" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612665588217"/>
+					<UserField Title="city" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612665606772"/>
+					<UserField Title="region" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612665616580"/>
+					<UserField Title="source_level_2" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667940463"/>
+					<UserField Title="source_level_3" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667949581"/>
+					<UserField Title="source_level_4" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667958591"/>
+					<UserField Title="source_level_5" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667973157"/>
+					<UserField Title="source_level_6" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667980139"/>
+					<UserField Title="source_level_7" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1612667986771"/>
+					<UserField Title="google_client_id" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_601F99B639F0F"/>
+					<UserField Title="metrika_client_id" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_601F9BB50622E"/>
+					<UserField Title="os" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613684088142"/>
+					<UserField Title="agent" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613684102196"/>
+					<UserField Title="is_mobile" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613684137147"/>
+					<UserField Title="IP" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613684790389"/>
+					<UserField Title="country" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613687796003"/>
+					<UserField Title="date" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688552414"/>
+					<UserField Title="openstat" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688609381"/>
+					<UserField Title="roistat_param1" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688668817"/>
+					<UserField Title="roistat_param2" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688682339"/>
+					<UserField Title="roistat_param3" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688691305"/>
+					<UserField Title="roistat_param4" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688703441"/>
+					<UserField Title="roistat_param5" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1613688713043"/>
+					<UserField Title="Русская Аналитика" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_RU_ANALITYCS"/>
+					<UserField Title="текст статуса для переноса" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_TRANSFER_STATUS_NAME"/>
+					<UserField Title="NEMIND_STAGES_LOG" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1578484533"/>
+					<UserField Title="NEMIND_STATUS_LOG" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1557008108"/>
+					<UserField Title="NEMIND_STATUS_OLD" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_1557008119"/>
+					<UserField Title="PREVIOUS_STATUS_ID" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_5E15CA0E5F680"/>
+					<UserField Title="Дата начала аренды (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="date" Name="UF_CRM_DATESTART"/>
+					<UserField Title="Дата окончания аренды (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="date" Name="UF_CRM_DATEEND"/>
+					<UserField Title="Количество дней аренды (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="integer" Name="UF_CRM_NDAYS"/>
+					<UserField Title="Комплектация (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="string" Name="UF_CRM_COMPLECT"/>
+					<UserField Title="Сумма залога (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_ZALOG"/>
+					<UserField Title="Сумма Виктория" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_SUM_MANAGER_M"/>
+					<UserField Title="Сумма менеджера 2 (А)  [не использовать]" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_SUM_MANAGER_O"/>
+					<UserField Title="Прибыль (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="double" Name="UF_CRM_PRIBYL"/>
+					<UserField Title="Дата-время начала аренды(А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="datetime" Name="UF_CRM_DATESTARTH"/>
+					<UserField Title="Дата-время окончания аренды (А)" IsSelected="True" TableName="DealUserFields" FromTableName="DealFields" FieldType="datetime" Name="UF_CRM_DATEENDH"/>
+				</UserFields>
+				<SQL>
+CREATE INDEX IF NOT EXISTS `deal_ID`  ON `deals` (
+ 	`ID`
+  );
+CREATE INDEX IF NOT EXISTS `DEAL_DATE_MODIFY`  ON `deals` (
+ 	`DATE_MODIFY`
+  );	
+    CREATE INDEX  IF NOT EXISTS `Activities_LAST_UPDATED` ON `Activities` (
+	`LAST_UPDATED`
+); 
+  CREATE INDEX  IF NOT EXISTS `Activities_ID` ON `Activities` (
+	`ID`
+); 
+  CREATE INDEX  IF NOT EXISTS `Activities_RESPONSIBLE_ID` ON `Activities` (
+	`RESPONSIBLE_ID`
+); 		
+
+		SELECT
+       Deals.ID AS [Deals:ID],
+       Users1.LAST_NAME || " " || Users1.NAME AS Responsible,
+       Statuses.NAME AS [Deal stage],
+       Translate(Statuses.Phase) AS [Stage group],
+       DealCategories.Name AS [Category],		 
+	   Users1.Active AS [Working responsible],	 	   
+       Departments.NAME AS Department,  
+       Deals.TITLE AS Title,
+	   StripTags(Deals.Comments) AS [Comments],
+       Sources.NAME AS Source,
+   	   Deals.SOURCE_DESCRIPTION AS [Source description],	   
+       Deals.DATE_CREATE AS [Created at],
+       Deals.DATE_MODIFY,
+       Deals.BEGINDATE As [Begin],
+       Deals.CLOSEDATE AS [Closing date],
+       Deals.OPENED,	   
+       CAST(CASE WHEN Deals.CLOSED and Deals.CLOSEDATE is not null
+             THEN
+               strftime('%s', Deals.CLOSEDATE) - strftime('%s', Deals.BEGINDATE)
+             ELSE
+               strftime('%s', 'now', 'localtime') - strftime('%s', Deals.BEGINDATE)
+	     END AS integer) AS [Duration #ftDuration], 
+       CAST(CASE WHEN Deals.CLOSED and Deals.CLOSEDATE is not null
+             THEN
+                DurationWorkTime(DateTime(Deals.BEGINDATE), DateTime(Deals.CLOSEDATE))
+             ELSE
+                DurationWorkTime(DateTime(Deals.BEGINDATE), null)
+	     END AS integer) 
+	 AS [Working hours #ftDurationHms],		 
+	 /*   under construction:    Statuses.NAME AS [Deal stage Funnel #ftFunnel], */
+       Users.LAST_NAME || " " || Users.NAME AS [Created by],
+       Deals.CLOSED As Closed,
+       DealTypes.NAME AS [Deal type],
+       CASE WHEN Deals.OPPORTUNITY IS NULL
+         THEN 0
+         ELSE Deals.OPPORTUNITY
+       END AS [Amount],
+       Deals.CURRENCY_ID AS [Currency id],
+       Deals.PROBABILITY,
+       Deals.IS_RETURN_CUSTOMER [Returned customer],
+	   Deals.UTM_SOURCE AS [UTM Source],
+       Deals.UTM_MEDIUM AS [UTM Medium],
+       Deals.UTM_CAMPAIGN AS [UTM Campaign],
+       Deals.UTM_CONTENT AS [UTM Content],
+       Deals.UTM_TERM AS [UTM Term],
+	   Deals.Lead_ID as [Leads:ID],
+       Deals.IS_NEW AS [Is new deal],
+       !MacroUserFields
+  FROM Deals
+       LEFT JOIN
+       Users ON Deals.CREATED_BY_ID = Users.ID	   
+       LEFT JOIN
+       Users USERS1 ON Deals.ASSIGNED_BY_ID = Users1.ID
+       LEFT JOIN
+       DealUserFields ON Deals.ID = DealUserFields.DEAL_ID
+       LEFT JOIN
+       Statuses ON Deals.STAGE_ID = Statuses.STATUS_ID AND UPPER(SUBSTR(Statuses.ENTITY_ID, 1, 10)) = UPPER("DEAL_STAGE")
+	   LEFT JOIN
+       Statuses Sources ON Sources.STATUS_ID = Deals.SOURCE_ID AND (Sources.ENTITY_ID = 'SOURCE')	  	   
+       LEFT JOIN
+       Statuses DealTypes ON DealTypes.STATUS_ID = Deals.TYPE_ID AND (DealTypes.ENTITY_ID = 'DEAL_TYPE')	  	   
+       LEFT JOIN
+       DealCategories ON Deals.Category_ID = DealCategories.ID
+	   LEFT Join
+	   DEPARTMENTS ON USERS1.UF_DEPARTMENT = '[' || Departments.ID || ']'	   
+  ORDER BY
+       Deals.DATE_MODIFY DESC LIMIT 50000
+		</SQL>
+			</Params>
+		</Source>
+	</DataSources>
+	<ColumnsList>
+		<CN Visible="True" Width="350" Name="Начало">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" PeriodClustersType="Total" Name="Итого">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Ответственный">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Стадия сделки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Группа стадий">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Направление сделки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Работающий ответственный">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Отдел">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Источник">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Описание источника">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Доступна для всех">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Продолжительность">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Рабочие часы">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Создал">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Закрыта">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Тип сделки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Вероятность">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Повторная сделка">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="UTM Source">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="UTM Medium">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="UTM Campaign">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="UTM Content">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="UTM Term">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Новая сделка">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="К-во участников">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Где проходит">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Бюджет мероприятия">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="planado: Адрес">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="planado: Дата-время">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="planado: Исполнители">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Оборудование испорчено">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Вариант доставки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Комплектность">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Доставщик">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Михаила">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Прибыль">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Ольги">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Кирилла">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма &quot;Иное&quot;">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Дарьи">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Женя">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Расход Менеджеры">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Расход Офис">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Цена за Клиента">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Тип обращения">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="domain">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Рекламный источник">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Наталья">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Инвестор Баха">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="call_id">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Шамиль">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="ID лида">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Тип обращения_1">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="marker">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Ссылка на запись звонка">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Лена">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="referrer">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Код купона">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Всего расходы по сделке">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Список броней">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Первый контакт">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Второй звонок">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="WhatsApp сообщение">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="День 2: звонок/письмо (Что решил)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="День 2: доп. инфо в WhatsApp">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="День 2: написать вечером">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Договор выслан">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Счет отправлен">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Направление сделки (для отчета)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Отметки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Поле состояния имущества">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Фактический период проката (суток)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Итого арендная плата (рублей)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Итого арендая плата (копеек)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Общая сумма обеспечительного платежа">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Общая оценочная стоимость имущества с учетом износа">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Общая сумма арендной платы за сутки">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Обесп. платёж + аренда за период">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="cat_id_aurarent">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="сценарий КТ roistat">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="набранный номер телефонии">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Общая сумма аренды за весь период">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Количество часов аренды">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма доставки_">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Номер КТ roistat">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="landing_page">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Повторная сделка &lt;2&gt;">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Тип клиента">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сопровождение">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="триггер whatsapp">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_1">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Город">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Район">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_2">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_3">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_4">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_5">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_6">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="source_level_7">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="google_client_id">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="metrika_client_id">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="os">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="agent">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="is_mobile">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="IP">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Страна">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Дата">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="openstat">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat_param1">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat_param2">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat_param3">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat_param4">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="roistat_param5">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Русская Аналитика">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="текст статуса для переноса">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="NEMIND_STATUS_LOG">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="NEMIND_STATUS_OLD">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="PREVIOUS_STATUS_ID">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Дата окончания аренды (А)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Количество дней аренды (А)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Комплектация (А)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма залога (А)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма Виктория">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Сумма менеджера 2 (А)  (не использовать)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Прибыль (А)">
+			<Segms/>
+		</CN>
+		<CN Visible="True" Width="350" Name="Дата-время окончания аренды (А)">
+			<Segms/>
+		</CN>
+	</ColumnsList>
+	<Kernel Time="Начало" Money="Сумма" AutoFilter="Направление сделки">
+		<FormatSettings CurrencyString="₽"/>
+		<Code>
+			<Filters>
+				<Filter Name="Фильтр">
+					<Parameters/>
+				</Filter>
+				<Filter Name="Прокат">
+					<Parameters>
+						<Parameter Value="0" Name="Направление сделки">
+							<Segments>
+								<Segment Name="Прокат"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Event">
+					<Parameters>
+						<Parameter Value="0" Name="Направление сделки">
+							<Segments>
+								<Segment Name="Event"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Не используется">
+					<Parameters>
+						<Parameter Value="0" Name="Направление сделки">
+							<Segments>
+								<Segment Name="Не используется"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Успешно">
+					<Parameters>
+						<Parameter Value="0" Name="Группа стадий">
+							<Segments>
+								<Segment Name="Успешно"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Закрыта">
+					<Parameters>
+						<Parameter Value="0" Name="Закрыта">
+							<Segments>
+								<Segment Name="✔"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Провалено">
+					<Parameters>
+						<Parameter Value="0" Name="Группа стадий">
+							<Segments>
+								<Segment Name="Провалено"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Открыто">
+					<Parameters>
+						<Parameter Value="0" Name="Группа стадий">
+							<Segments>
+								<Segment Name="Открыто"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Свежие (неделя-)">
+					<Parameters>
+						<Parameter Condition="LessOrEqual" Value="604800" Name="Продолжительность">
+							<Segments/>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Зависло на месяц+">
+					<Parameters>
+						<Parameter Condition="MoreOrEqual" Value="2628000" Name="Продолжительность">
+							<Segments/>
+						</Parameter>
+						<Parameter Value="0" Name="Группа стадий">
+							<Segments>
+								<Segment Name="Открыто"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+				<Filter Name="Повторная сделка">
+					<Parameters>
+						<Parameter Name="Повторная сделка">
+							<Segments>
+								<Segment Name="✔"/>
+							</Segments>
+						</Parameter>
+					</Parameters>
+				</Filter>
+			</Filters>
+			<CustomRatios>
+				<Ratio RatioType="Count" PeriodType="Current" DateParam="Начало" Name="Создано"/>
+				<Ratio RatioType="Count" PeriodType="Current" DividedBy="Allocation" DateParam="Начало" Name="Доля по количеству"/>
+				<Ratio RatioType="Sum" PeriodType="Current" DateParam="Начало" Name="Сумма"/>
+				<Ratio RatioType="Average" PeriodType="Current" DateParam="Начало" Name="Среднее"/>
+				<Ratio RatioType="Average" Filter="Закрыта" PeriodType="Current" SumParam="Продолжительность" Name="Средняя продолжительность закрытых"/>
+				<Ratio RatioType="Count" Filter="Успешно" PeriodType="Current" DateParam="Начало" Name="Успешно по дате создания"/>
+				<Ratio RatioType="Count" Filter="Успешно" PeriodType="Current" DividedBy="Share" DateParam="Начало" Name="Конверсия"/>
+				<Ratio RatioType="Count" Filter="Провалено" PeriodType="Current" DateParam="Начало" Name="Провалено по дате создания"/>
+				<Ratio RatioType="Count" Filter="Провалено" PeriodType="Current" DividedBy="Share" DateParam="Начало" Name="Конверсия в проваленные"/>
+				<Ratio RatioType="Count" Filter="Открыто" PeriodType="Current" Name="Открыто"/>
+				<Ratio RatioType="Count" Filter="Свежие (неделя-)" PeriodType="Current" Name="Свежие (неделя-)"/>
+				<Ratio RatioType="Count" Filter="Зависло на месяц+" PeriodType="Current" Name="Зависло на месяц+"/>
+				<Ratio RatioType="Count" Filter="Повторная сделка" PeriodType="Current" Name="Повторная сделка"/>
+				<Ratio RatioType="Count" PeriodType="Current" Symbol="разделитель" Value1="0" Name="СЛЕДУЮЩИЕ ПОКАЗАТЕЛИ СЧИТАЮТСЯ ПО ДАТЕ ЗАВЕРШЕНИЯ"/>
+				<Ratio RatioType="Count" Filter="Успешно" PeriodType="Current" DateParam="Дата завершения" Name="Успешно"/>
+				<Ratio RatioType="Count" Filter="Успешно" PeriodType="Current" DividedBy="Allocation" DateParam="Дата завершения" Name="Выиграно, доля по количеству"/>
+				<Ratio RatioType="Sum" Filter="Успешно" PeriodType="Current" DateParam="Дата завершения" Name="Успешно, сумма"/>
+				<Ratio RatioType="Average" Filter="Успешно" PeriodType="Current" DateParam="Дата завершения" Name="Успешно, среднее"/>
+				<Ratio RatioType="Average" Filter="Успешно" PeriodType="Current" DateParam="Дата завершения" SumParam="Продолжительность" Name="Длительность выигранных, среднее"/>
+				<Ratio RatioType="Count" Filter="Провалено" PeriodType="Current" DateParam="Дата завершения" Name="Провалено"/>
+				<Ratio RatioType="Count" Filter="Провалено" PeriodType="Current" DividedBy="Allocation" DateParam="Дата завершения" Name="Провалено, доля по количеству"/>
+				<Ratio RatioType="Sum" Filter="Провалено" PeriodType="Current" DateParam="Дата завершения" Name="Провалено, сумма"/>
+				<Ratio RatioType="Average" Filter="Провалено" PeriodType="Current" DateParam="Дата завершения" Name="Проиграно, среднее"/>
+				<Ratio RatioType="Average" Filter="Провалено" PeriodType="Current" DateParam="Дата завершения" SumParam="Продолжительность" Name="Длительность проваленных, среднее"/>
+			</CustomRatios>
+			<Plan Value="0"/>
+		</Code>
+	</Kernel>
+	<Report Sort="0">
+		<UserFields/>
+	</Report>
+	<Views ActiveView="Automatic">
+		<View TabName="tbFullPivot" ChartClusterType="Line" ChartParamterType="Pie" DrawChartStyle="Line" ChartSelectedType="Cluster" ChartTimePeriod="Auto" ChartRatio="Создано" Name="Automatic">
+			<Tables/>
+			<CrossTable/>
+			<RatioViews>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Создано"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Доля по количеству"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Сумма"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Sum, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Среднее"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Средняя продолжительность закрытых"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Успешно по дате создания"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Конверсия"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Провалено по дате создания"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Конверсия в проваленные"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Открыто"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Свежие (неделя-)"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Зависло на месяц+"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Повторная сделка"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="СЛЕДУЮЩИЕ ПОКАЗАТЕЛИ СЧИТАЮТСЯ ПО ДАТЕ ЗАВЕРШЕНИЯ"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Успешно"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Выиграно, доля по количеству"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Успешно, сумма"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Sum, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Успешно, среднее"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Длительность выигранных, среднее"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Провалено"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Провалено, доля по количеству"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Провалено, сумма"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Sum, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Проиграно, среднее"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Длительность проваленных, среднее"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView FullPivot="True" FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Count, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Count, Base period"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Share by Count"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Share by Count, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Share by Count, Base period"/>
+				<RatioView FullPivot="True" FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Sum"/>
+				<RatioView FullPivot="True" FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Sum, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Sum, Base period"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Share by Sum"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Share by Sum, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Share by Sum, Base period"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Average, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Average, Base period"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Average, Compared with all"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Average, Compared with all, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Average, Compared with all, Base period"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Max"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Max, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Max, Base period"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Max, Compared with all"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Max, Compared with all, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Max, Compared with all, Base period"/>
+				<RatioView FullPivotHint="True" Info="True" FastPivot="True" WidthInRatio="0" SortInRatio="0" Name="Min"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Min, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Min, Base period"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Min, Compared with all"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Min, Compared with all, Trend"/>
+				<RatioView Info="True" WidthInRatio="0" SortInRatio="0" Name="Min, Compared with all, Base period"/>
+			</RatioViews>
+			<ChartRatios/>
+			<Cluster Parameter="Начало" Name="Текущий период"/>
+			<Trigger SegmentValue="0" TotalValue="0" ShowType="Table"/>
+		</View>
+		<View ChartTimePeriod="Auto" Name="Автоматически">
+			<Tables/>
+			<CrossTable/>
+			<RatioViews/>
+			<ChartRatios/>
+			<Cluster/>
+			<Trigger SegmentValue="0" TotalValue="0" ShowType="Table"/>
+		</View>
+		<View TabName="tbFullPivot" ChartTimePeriod="Auto" ChartRatio="Created" Name="По умолчанию">
+			<Tables/>
+			<CrossTable/>
+			<RatioViews/>
+			<ChartRatios/>
+			<Cluster/>
+			<Trigger SegmentValue="0" TotalValue="0" ShowType="Table"/>
+		</View>
+		<View TabName="tbFastPivot" SelectedColumn="Ответственный" ChartClusterType="Line" ChartParamterType="CompareHistogram" DrawChartStyle="CompareHistogram" ChartSelectedType="Parameter" ChartTimePeriod="Auto" ChartRatio="Created" Name="Ответственный">
+			<Tables/>
+			<CrossTable/>
+			<RatioViews/>
+			<ChartRatios/>
+			<Cluster/>
+			<Trigger SegmentValue="0" TotalValue="0" ShowType="Table"/>
+		</View>
+	</Views>
+	<Project PeriodFast="AllTillToday" ComparePeriod="NoCompare"/>
+	<EMail Port="0"/>
+</NptFile>
